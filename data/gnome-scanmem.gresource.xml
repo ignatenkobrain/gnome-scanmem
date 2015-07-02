@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gresources>
+  <gresource prefix="/org/gnome/scanmem">
+    <file alias="gsm-window.ui" compressed="true" preprocess="xml-stripblanks">ui/gsm-window.ui</file>
+    <file alias="gsm-select-process-dialog.ui" compressed="true" preprocess="xml-stripblanks">ui/gsm-select-process-dialog.ui</file>
+  </gresource>
+</gresources>
