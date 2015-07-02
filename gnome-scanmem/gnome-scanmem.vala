@@ -72,6 +72,7 @@ public class ScanMem : Gtk.Application
     Gtk.show_about_dialog (window,
                            "name", "Memory Scanner",
                            "version", VERSION,
+                           "comments", "Scan memory and change values",
                            "copyright", "Copyright © 2015 Igor Gnatenko",
                            "license-type", Gtk.License.GPL_3_0,
                            "authors", authors,
