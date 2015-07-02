@@ -1,0 +1,23 @@
+<Project xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:gnome="http://api.gnome.org/doap-extensions#"
+         xmlns="http://usefulinc.com/ns/doap#">
+
+  <name xml:lang="en">gnome-scanmem</name>
+  <shortdesc xml:lang="en">Scan memory and change values</shortdesc>
+  <description xml:lang="en">Scan memory and change values</description>
+  <homepage rdf:resource="https://wiki.gnome.org/Apps/ScanMem" />
+  <download-page rdf:resource="http://download.gnome.org/sources/gnome-scanmem/" />
+  <bug-database rdf:resource="https://bugzilla.gnome.org/browse.cgi?product=gnome-scanmem" />
+  <category rdf:resource="http://api.gnome.org/doap-extensions#apps" />
+  <programming-language>Vala</programming-language>
+
+  <maintainer>
+    <foaf:Person>
+      <foaf:name>Igor Gnatenko</foaf:name>
+      <foaf:mbox rdf:resource="mailto:ignatenko@src.gnome.org" />
+      <gnome:userid>ignatenko</gnome:userid>
+    </foaf:Person>
+  </maintainer>
+</Project>
