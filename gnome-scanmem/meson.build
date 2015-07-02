@@ -1,6 +1,6 @@
 srcs = [
   'config.vapi',
-  'gnome-scanmem.vala',
+  'gsm-main.vala',
   'gsm-window.vala',
   'gsm-select-process-dialog.vala',
   resources,
