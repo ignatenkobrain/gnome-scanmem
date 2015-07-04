@@ -15,6 +15,6 @@ executable(
     gtk,
   ],
   c_args : '-DVERSION="@0@"'.format(version),
-  vala_args : '--gresources=../data/gnome-scanmem.gresource.xml',
+  vala_args : ['--gresources', gresource],
   install : true
 )
